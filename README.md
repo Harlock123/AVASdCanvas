@@ -4,7 +4,7 @@ An [Avalonia UI](https://avaloniaui.net/) canvas control for rendering interacti
 
 Built on .NET 9 and Avalonia 11.
 
-![Demo screenshot](https://raw.githubusercontent.com/harlock123/AVASdCanvas/main/Images/demo-overview.png)
+![Demo screenshot](/Images/demo-overview.png)
 
 ---
 
