@@ -4,7 +4,7 @@ An [Avalonia UI](https://avaloniaui.net/) canvas control for rendering interacti
 
 Built on .NET 9 and Avalonia 11.
 
-![Demo screenshot](Images/demo-overview.png)
+![Demo screenshot](https://raw.githubusercontent.com/harlock123/AVASdCanvas/main/Images/demo-overview.png)
 
 ---
 
@@ -30,7 +30,7 @@ Built on .NET 9 and Avalonia 11.
 
 | Overview | Drag in progress | Hover with metadata |
 |---|---|---|
-| ![Overview](Images/demo-overview.png) | ![Dragging](Images/demo-drag.png) | ![Hover](Images/demo-hover.png) |
+| ![Overview](https://raw.githubusercontent.com/harlock123/AVASdCanvas/main/Images/demo-overview.png) | ![Dragging](https://raw.githubusercontent.com/harlock123/AVASdCanvas/main/Images/demo-drag.png) | ![Hover](https://raw.githubusercontent.com/harlock123/AVASdCanvas/main/Images/demo-hover.png) |
 
 > **Note:** To populate these screenshots, run the demo app, capture the images, and save them to the `Images/` folder.
 
