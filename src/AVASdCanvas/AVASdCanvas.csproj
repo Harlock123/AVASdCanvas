@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>AVASdCanvas</RootNamespace>
+
+    <!-- NuGet package metadata -->
+    <PackageId>AVASdCanvas</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>harlo</Authors>
+    <Description>An Avalonia canvas control for rendering structured diagrams with colorized labeled entities, connectors with configurable endpoints, a graph-paper grid background, drag-and-drop, hit testing, and arbitrary metadata support.</Description>
+    <PackageTags>avalonia;canvas;diagram;structured-diagram;graph;control;ui</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/harlo/AVASdCanvas</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/harlo/AVASdCanvas</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon Condition="Exists('..\..\Images\icon.png')">icon.png</PackageIcon>
+
+    <!-- Generate XML docs for IntelliSense in consuming projects -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.12" />
+  </ItemGroup>
+
+  <!-- Include README and icon in NuGet package -->
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\Images\icon.png" Pack="true" PackagePath="\" Condition="Exists('..\..\Images\icon.png')" />
+  </ItemGroup>
+
+</Project>
