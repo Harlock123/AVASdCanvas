@@ -57,4 +57,8 @@ projects.
 
 ## CI and releases
 
-There is no CI workflow. Packages are made and pushed to NuGet by hand (see the README's "Publishing to NuGet").
+`.github/workflows/build.yml` builds every push and packs the NuGet package, then publishes the demo as
+self-contained single files for win-x64/x86/arm64, linux-x64/arm64/arm and osx-x64/arm64. Pushes to `master` refresh
+the rolling `latest` pre-release; a `v*` tag makes a proper release, with the package version taken from the tag.
+The `.nupkg` is attached to the release; pushing it to nuget.org is still done by hand (see the README's
+"Publishing to NuGet").
