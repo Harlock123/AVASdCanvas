@@ -2,7 +2,7 @@
 
 An [Avalonia UI](https://avaloniaui.net/) canvas control for rendering interactive **structured diagrams**. Place colorized, labeled entities on a configurable graph-paper grid, connect them with lines sporting round-dot or pointed-arrow endpoints, drag them around, and attach arbitrary metadata to every element.
 
-Built on .NET 9 and Avalonia 11.
+Built on .NET 10 and Avalonia 11.
 
 ![Demo screenshot](/Images/demo-overview.png)
 
@@ -40,7 +40,7 @@ Built on .NET 9 and Avalonia 11.
 
 ### Prerequisites
 
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 
 ### Build
 

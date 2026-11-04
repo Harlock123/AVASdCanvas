@@ -5,14 +5,14 @@ this file covers how the code is put together and the rules that keep it working
 
 ## What this is
 
-AVASdCanvas, an Avalonia 11 control for structured diagrams, in C# on .NET 9. It draws labelled entities on a
+AVASdCanvas, an Avalonia 11 control for structured diagrams, in C# on .NET 10. It draws labelled entities on a
 graph-paper grid and joins them with connectors. Entities can be dragged, and every element can carry metadata and
 raises mouse events. It is packaged for NuGet as `AVASdCanvas`; a small demo app shows it off.
 
 ## Commands
 
 ```bash
-dotnet build AVASdCanvas.sln                      # no global.json: any .NET 9 or later SDK
+dotnet build AVASdCanvas.sln                      # no global.json: any .NET 10 or later SDK
 dotnet run --project src/AVASdCanvas.Demo         # the demo window
 dotnet pack src/AVASdCanvas/AVASdCanvas.csproj -c Release   # the NuGet package
 ```
